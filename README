@@ -1,8 +1,20 @@
+DONNA CHESS OPENING BOOKS
 
-http://www.chess2u.com/t5834p15-gm-polyglot-book
+   This repository contains free Polyglot chess opening books that could be used
+   with the Donna chess engine (http://github.com/michaeldv/donna).
 
-Komodo opening book by Salvo Spitaleri
-http://komodochess.com/downloads.htm
+   The opening books are as follows:
 
-Rodent opening book by Pawel Koziol
-http://www.pkoziol.cal24.pl/rodent/rodent_download.htm
+   gm2001.bin Games from 2001 to 2013 with minimum ELO of 2530 by Oliver Deville
+   http://www.chess2u.com/t5834p15-gm-polyglot-book
+
+   komodo.bin Komodo opening book by Salvo Spitaleri
+   http://komodochess.com/downloads.htm
+
+   rodent.bin Rodent opening book by Pawel Koziol
+   http://www.pkoziol.cal24.pl/rodent/rodent_download.htm
+
+   To use any of these book with Donna set DONNA_BOOK environment variable, for
+   example:
+
+   $ export DONNA_BOOK=~/chess/books/gm2001.bin
